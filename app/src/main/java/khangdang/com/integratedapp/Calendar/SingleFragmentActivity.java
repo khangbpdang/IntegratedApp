@@ -29,14 +29,14 @@ public abstract class SingleFragmentActivity extends FragmentActivity {
         dateTextView = (TextView) findViewById(R.id.date_tv);
         calendarButton = (Button) findViewById(R.id.calendarButton);
         cal = Calendar.getInstance();
-        //String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
+        String currentDateTimeString = DateFormat.getDateTimeInstance().format(new Date());
 
 
         Intent otherIntent = getIntent();
         String date = otherIntent.getStringExtra("date");
 
 
-        //dateTextView.setText(currentDateTimeString);
+        dateTextView.setText(currentDateTimeString);
 
 
         calendarButton.setOnClickListener(new View.OnClickListener() {
