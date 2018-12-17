@@ -13,7 +13,8 @@
         android:layout_marginTop="10dp"
         card_view:cardBackgroundColor="@android:color/black"
         card_view:cardPreventCornerOverlap="false"
-        card_view:cardUseCompatPadding="true">
+        card_view:cardUseCompatPadding="true"
+        android:focusable="true">
 
 
         <com.google.android.youtube.player.YouTubeThumbnailView

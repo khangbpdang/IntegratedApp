@@ -34,9 +34,9 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/ic_youtube_play_button.png" />
-                                      <entry key="foregroundLayerName" value="ic_youtube_play_button_" />
-                                      <entry key="outputName" value="ic_youtube_play_button" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/ic_refresh.png" />
+                                      <entry key="foregroundLayerName" value="ic_refresh_" />
+                                      <entry key="outputName" value="ic_refresh" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Calendar.CalendarMainActivity"
+    android:background="@color/light_yellow"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarButton"
+        android:text="@string/calendar"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/pastel_orange"
+        android:fontFamily="@font/vollkorn_regular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/today_s_date"
+        android:id="@+id/date_tv"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:fontFamily="@font/stardosstencil_regular"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/fragmentContainer"
+        android:background="@color/brandeis_blue"
+        >
+
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_button"
+            android:text="@string/add_event"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_background"
+            android:textColor="@color/pastel_orange"
+            android:padding="15dp"
+            android:fontFamily="@font/vollkorn_regular"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

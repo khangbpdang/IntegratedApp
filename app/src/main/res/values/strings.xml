@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">IntegratedApp</string>
+    <string name="app_name">Personal App</string>
 
     // YouTubeVideo
     <string name="youtube_api_demo">YouTube API Demos</string>
@@ -70,7 +70,12 @@
     <string name="today_s_date">Today\'s Date is</string>
     <string name="the_current_selected_time">The Current Selected Time is</string>
 
+
+    // MainActivity
     <string name="video">Video</string>
     <string name="personal_app">Personal App</string>
     <string name="enter_link_to_add_video">Enter Link to Add Video</string>
+    <string name="news">News</string>
+    <string name="save_list">Save List</string>
+    <string name="add_video">Add Video</string>
 </resources>
