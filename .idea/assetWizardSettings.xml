@@ -33,10 +33,12 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundImage" value="$USER_HOME$/Desktop/P background.jpg" />
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/ic_refresh.png" />
-                                      <entry key="foregroundLayerName" value="ic_refresh_" />
-                                      <entry key="outputName" value="ic_refresh" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Desktop/P.png" />
+                                      <entry key="foregroundLayerName" value="ic_launcher_foreground_" />
+                                      <entry key="legacyIconShape" value="CIRCLE" />
+                                      <entry key="outputName" value="ic_launcher_foreground" />
                                     </map>
                                   </option>
                                 </PersistentState>
