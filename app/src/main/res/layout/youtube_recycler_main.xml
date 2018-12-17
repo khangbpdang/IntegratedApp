@@ -7,31 +7,49 @@
         android:id="@+id/instructionView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Link to Add Video"
-        android:textSize="25dp"/>
-
-    <EditText
-        android:id="@+id/videoURL"
+        android:text="@string/enter_link_to_add_video"
+        android:textSize="25sp"
+        android:fontFamily="@font/vollkorn_regular"/>
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName" />
+        android:id="@+id/desc_textInputLayout">
+        <EditText
+            android:id="@+id/videoURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_link_to_add_video"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/vollkorn_regular"/>
+    </android.support.design.widget.TextInputLayout>
+
 
     <Button
         android:id="@+id/addVideo"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Add Video" />
+        android:text="Add Video"
+        android:layout_marginTop="7dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/vollkorn_regular"/>
 
     <Button
         android:id="@+id/button_save"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Save List" />
+        android:text="Save List"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/vollkorn_regular"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

@@ -69,6 +69,7 @@ public class YouTubeActivity extends Activity {
                 final String url = userURL.getText().toString(); //gets you the contents of edit text
                 adapter.addVideo(url);
                 adapter.copyListContents(arrList);
+                userURL.getText().clear();
             }
         });
 

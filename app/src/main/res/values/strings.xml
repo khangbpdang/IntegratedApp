@@ -72,4 +72,5 @@
 
     <string name="video">Video</string>
     <string name="personal_app">Personal App</string>
+    <string name="enter_link_to_add_video">Enter Link to Add Video</string>
 </resources>
