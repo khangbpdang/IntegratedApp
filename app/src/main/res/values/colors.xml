@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    // YoutubeVideo
+    <color name="gray">#ff888888</color>
+    <color name="color_background_transparent">#89392f2f</color>
+
+    // Calendar
+    <color name="blueish">#3786F7</color>
+    <color name="darker_blueish">#1f5ad9</color>
+    <color name="brandeis_blue">#0070ff</color>
+    <color name="pastel_orange">#ffb347</color>
+    <color name="orangy_red">#f41619</color>
+    <color name="orange">#fa4f0f</color>
+    <color name="light_orange">#ec7c1e</color>
+    <color name="purple">#591b8b</color>
+    <color name="light_steel_blue">#B0C4DE</color>
+    <color name="light_yellow">#FFFFE0</color>
+    <color name="awesome">#ff2052</color>
+    <color name="green_yellow">#ADFF2F</color>
+</resources>
