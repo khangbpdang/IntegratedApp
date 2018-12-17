@@ -10,6 +10,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.gson.Gson;
 
@@ -62,7 +63,6 @@ public class NewsActivity extends AppCompatActivity {
 
         loadRSS();
 
-        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
     }
 
     // I used AsyncTask because its very useful and efficient for what I want it to do (load articles when clicked)
