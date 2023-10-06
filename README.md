@@ -1,6 +1,6 @@
 # Integrated App
 
-## This is a personal app which features 3 functions:
+## This is an Android app coded in Java which features 3 functions:
 
 #### Calendar
 A Calendar feature which can store events in a list and a calendar for users to view. Events can be added via a button and details of 
